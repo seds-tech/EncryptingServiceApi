@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask environment variables and configuration files
+instance/
+.env
+.env.bak
+.env.local
+*.env
+
+# Virtual environment directories (venv)
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+
+# Logs and runtime files
+logs/
+*.log
+*.out
+*.err
+
+# Database files
+*.sqlite3
+
+# Flask Cache and Session files
+*.cache
+flask_session/
+
+# MongoDB specific
+*.lock
+*.log
+*.tmp
+*.bak
+dump/
+
+# PyTest files and coverage reports
+.coverage
+*.cover
+htmlcov/
+.cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Static files
+static/
+media/
+
+# IDE Specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# macOS specific
+.DS_Store
