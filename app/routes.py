@@ -12,7 +12,7 @@ def create_user():
     data = request.get_json()
   
     publicKey = data.get('publicKey')
-    addingToken = data.get('addingToken', 0)  # Default to 0 if not provided
+    addingToken = data.get('addingToken', 111111)  # Default to 0 if not provided
     deactivateState = data.get('deactivateState', False)  # Default to False if not provided
 
     if not publicKey:
